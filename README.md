@@ -19,16 +19,17 @@ The primary objective of this project is to demonstrate industry-standard Softwa
 ## 📂 Repository Structure
 *This repository is organized logically to reflect a standard enterprise QA workflow.*
 
-* **📁 1_Requirements/**
+* **📁 1_Closure/**
+* `Test_Closure_Report.md` - Final execution metrics and release decisioning.
+* **📁 2_Defect_Tracking/**
+  * `Bug_Report.md` - Defect tracking log documenting 5 identified bugs (including 2 Critical systemic crashes) mapped with accurate reproduction steps.
+* **📁 3_Requirements/**
   * `frs.docx` - Functional Requirement Specification detailing the scope, business rules, and the Global Data Dictionary.
-* **📁 2_Test_Planning/**
-  * `TestPlan_ShadyMeadows.pdf` - Master Test Plan outlining the test strategy, in-scope/out-of-scope modules, and entry/exit criteria.
-* **📁 3_Test_Design/**
+* **📁 4_Test_Design/**
   * `TestScenario_Original.csv` - 13 high-level test scenarios covering complete core functionality.
   * `TestCase_Original.csv` - 33 precisely mapped test cases executing both positive (Happy Path) and negative boundary flows.
-* **📁 4_Defect_Tracking/**
-  * `Defect_Log_ShadyMeadows.md` - Defect tracking log documenting 5 identified bugs (including 2 Critical systemic crashes) mapped with accurate reproduction steps.
-  * `Test_Closure_Report.md` - Final execution metrics and release decisioning.
+* **📁 5_Test_Planning/**
+  * `TestPlan_ShadyMeadows.docx` - Master Test Plan outlining the test strategy, in-scope/out-of-scope modules, and entry/exit criteria.
 
 ## 📊 Key Highlights & Metrics
 * **Total Test Cases Executed:** 33
